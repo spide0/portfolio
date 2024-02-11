@@ -1,8 +1,7 @@
 
 body {
 font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -96,6 +95,15 @@ nav ul li{
 
 /* main section styles */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+
 
 /* about section style */
 
@@ -118,6 +126,32 @@ nav ul li{
     text-align: center;
     font-size: 18px;
 
+
+}
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+  
+    
+   
+}
+.about-info {
+    
+text-align: center;
+ 
+ 
+}
+.info-description {
+    font-size: 20px;
+    margin-top: 5px;
+    font-size: bold;
+   
+
+}
+.info-title {
+    margin-bottom: 0;
 
 }
 
